@@ -1,6 +1,6 @@
-$primary-color: #444;
-$secondary-color: #b666d2;
-$show-home-image: true;
+$primary-color: rgb(138, 135, 135);
+$secondary-color: #2eda45;
+$show-home-image: false;
 $home-image: url(../img/img_background.jpg);
 $background-opacity: 0.5;
 
@@ -59,7 +59,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, $amount: 2), 0.5);
+    /*background: rgba(lighten($primary-color, $amount: 2), 0.5); */
   }
 }
 
